@@ -1,0 +1,93 @@
+/* Sizes text in <p> tags */
+p {
+  font-size: 1.2rem;
+}
+/*  */
+.custom-bg {
+  background-color: rgba(231, 224, 193, 0.996);
+}
+/* Body Background */
+.custom-bg-2 {
+  background-color: rgb(133, 132, 132);
+  color: rgb(193, 204, 213);
+}
+/* Element Background */
+.custom-bg-3 {
+  background-color: rgb(49, 49, 49);
+}
+/* Main Text Colour */
+.custom-font-c {
+  color: rgb(210, 220, 230);
+}
+.custom-font-drop {
+  color: rgb(190, 69, 69);
+}
+/* Heading Colour */
+.heading-c-1 {
+  color: rgb(215, 35, 35);
+}
+/* Alternate Heading Colour */
+.heading-c-2 {
+    color: rgb(110, 80, 194);
+}
+/* Clears any default borders */
+.remove-border {
+    border: none;
+}
+/* Full border around an element */
+.full-border {
+    border: 3px solid rgb(190, 69, 69);
+}
+/* Thick border on left of element */
+.custom-border-light {
+  border-left: 10px solid rgb(190, 69, 69);
+}
+/* Alternate thick border in left of element */
+.custom-border-purple {
+    border-left: 10px solid rgb(110, 80, 194);
+}
+/* Verdana Font Class */
+.verdana-font {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cambria_font {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* Changes Link Hover Colour */
+.nav-link:hover {
+  color: rgb(190, 69, 69);
+}
+
+/* Index Pages Cards */
+.backgroundImages {
+  height: 250px; 
+  width: 250px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  color: white; 
+  border: 3px solid rgb(110, 80, 194);
+  font-weight: bold; 
+}
+.backgroundImages:hover{
+  color: rgb(190, 69, 69);
+  border: 3px solid rgb(190, 69, 69);
+}
+
+.text-overlay {
+  background-color: rgba(0, 0, 0, 0.8); /* Black with 60% opacity */
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Footer */
+.button-c {
+  background-color: rgb(190, 69, 69);
+}
+.button-c:hover {
+  background-color: rgb(190, 69, 69);
+  border: 3px solid rgb(110, 80, 194);
+}
